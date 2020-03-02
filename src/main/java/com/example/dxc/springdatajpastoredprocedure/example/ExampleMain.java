@@ -12,6 +12,6 @@ public class ExampleMain {
         exampleClient.run();
         EntityManagerFactory emf = context.getBean(EntityManagerFactory.class);
         emf.close();
-        context.close();
+        context.close();        
     }
 }
