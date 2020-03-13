@@ -10,8 +10,6 @@ public class ExampleMain {
                 new AnnotationConfigApplicationContext(AppConfig.class);
         ExampleClient exampleClient = context.getBean(ExampleClient.class);
         exampleClient.run();
-        EntityManagerFactory emf = context.getBean(EntityManagerFactory.class);
-        emf.close();
         context.close();        
     }
 }
