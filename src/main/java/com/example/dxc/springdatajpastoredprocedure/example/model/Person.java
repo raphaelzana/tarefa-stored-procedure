@@ -1,4 +1,4 @@
-package com.example.dxc.springdatajpastoredprocedure.example;
+package com.example.dxc.springdatajpastoredprocedure.example.model;
 
 import javax.persistence.*;
 

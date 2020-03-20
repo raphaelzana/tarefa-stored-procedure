@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
+import com.example.dxc.springdatajpastoredprocedure.example.model.*;
+import com.example.dxc.springdatajpastoredprocedure.example.repository.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
