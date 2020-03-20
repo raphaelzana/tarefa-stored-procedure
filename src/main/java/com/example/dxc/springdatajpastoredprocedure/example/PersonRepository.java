@@ -1,10 +1,12 @@
 package com.example.dxc.springdatajpastoredprocedure.example;
 
+import java.util.List;
+
+import javax.transaction.Transactional;
+
 import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
-import org.springframework.transaction.annotation.Transactional;
-import java.util.List;
 
 @Transactional
 public interface PersonRepository extends CrudRepository<Person, Long> {

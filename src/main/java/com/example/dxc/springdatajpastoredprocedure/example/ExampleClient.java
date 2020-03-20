@@ -39,6 +39,7 @@ public class ExampleClient {
 
         System.out.println("-- fetching from  person history --");
         repo.fetchPersonHistory().forEach(System.out::println);
+        System.out.println("charagunca");
     }
 
     private List<Person> createPersons() {
